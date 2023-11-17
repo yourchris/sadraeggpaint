@@ -1,0 +1,290 @@
+*{
+	margin: 0px; 
+	padding: 0px;
+
+}
+body {
+	background-color: white;
+ }
+.header-main {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.header-main-logo-text{
+	width: fit-content;
+	height: 100%;
+
+}
+.header-main-logo-text img{
+	height: 140px;
+	align-self: center;
+	margin: -10px 0;
+}
+.header-logo1{
+	width: fit-content;
+	height: 100%;
+	background-color: ;
+	display: flex;
+	padding-left: 20px;
+}
+.header-logo2{
+	width: fit-content;
+	height: 100%;
+	background-color: ;
+	display: flex;
+	padding-right: 20px;
+}
+.header-nav {
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 1px -3px 33px 0px #ffffff;
+}
+.header-main-nav{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+
+}
+.header-main-nav ul{
+	list-style: none;
+
+}
+
+.header-main-nav ul li{
+	display: inline;
+	float: left;
+	padding: 0 40px;
+	
+}
+
+.header-main-nav ul li a{
+	padding: 0 100px;
+	color: #011936;
+	font-family: Arial;
+	font-weight: bold;
+	line-height: 30px;
+	text-decoration:none;
+	border: 6px double #011936;
+}
+.header-main-nav ul li a:hover {
+	color: orange;
+}
+.kontainer {
+	display: flex;
+	float: left;
+	flex-direction: ;
+}
+.judul {
+	margin-top: 80px;
+	margin-bottom: 50px;
+	font-family: timesnewroman;
+	font-weight: bold;
+	color: #0f1e60 ;
+	font-size: 70px;
+}
+.judul span{
+	color: ;
+}
+.judul span1{
+	color: #;
+}
+.linkhowto {
+	padding-left: 380px;
+	font-size: 40px;
+	color: #0f1e60;
+	font-family: Arial;
+	font-weight: bold;
+	line-height: 30px;
+}
+.garis{
+	color: #011936;
+}
+.product{
+	text-align: center;
+	color:white ;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+	background-color: #011936;
+}
+.ukiran {
+	padding-right: 79%;
+	perspective: 500px;
+	transform: rotateX(0deg) rotateY(180deg);
+	transform-style: preserve-3d;
+
+}
+.container2{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	margin-top: 30px;
+}
+.eggpainting {
+	padding: 30px;
+	background-color: white;
+	text-align: center;
+	line-height: 25px;
+	border: 6px double #011936;
+	border-radius: 25px;
+
+}
+.eggpainting span{
+	font-weight: bold;
+}	
+
+.shellpainting{
+	padding: 30px;
+	background-color: white;
+	text-align: center;
+	line-height: 25px;
+	border: 6px double #011936;
+	border-radius: 25px;
+}
+.shellpainting span {
+	font-weight: bold;
+}
+
+.photopainting {
+	padding: 30px;
+	background-color: white;
+	text-align: center;
+	line-height: 25px;
+	border: 6px double #011936;
+	border-radius: 25px;
+}
+.photopainting span {
+	font-weight: bold;
+}
+
+}
+.backgroundutama {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.lesson{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	background-color: #011936;
+	font-family: arial;
+	font-weight: bold;
+	margin-top: 30px;
+	
+}
+
+.belajar{
+	white-space: pre-line;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	background-color: white;
+	font-family: arial;
+	margin-top: 30px;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border: 6px double #011936;
+	border-radius: 25px;
+}
+.about{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	background-color: #011936;
+	font-family: arial;
+	font-weight: bold;
+	margin-top: 30px;
+	justify-content: center;
+}
+.about2{
+	text-align: center;
+	color: black;
+	font-size: 23px;
+	background-color: white;
+	font-family: arial;
+	margin-top: 30px;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 30px;
+	border: 6px double #011936;
+	border-radius: 25px;
+}
+.howtoorder0{
+	color: black;
+	font-family: arial;
+	padding-left: 40%;
+	font-size: 20px;
+	text-decoration: underline;
+
+}
+.howtoorder{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	background-color: #011936;
+	font-family: arial;
+	font-weight: bold;
+	margin-top: 30px;
+	justify-content: center;
+
+
+}
+.howtoorder2{
+	text-align: left;
+	color: black;
+	font-size: 23px;
+	background-color: white;
+	font-family: arial;
+	margin-top: 30px;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 26px;
+	padding-bottom: 15px;
+	padding-left: 15%;
+	padding-right: 15%;
+	line-height: 35px;
+	border: 6px double #011936;
+	border-radius: 25px;
+}
+.contact{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	background-color: #011936;
+	font-family: arial;
+	font-weight: bold;
+	margin-top: 30px;
+	justify-content: center;
+
+
+}
+.contact2{
+	margin: 30px;
+	text-align: center;
+	color: black;
+	font-size: 23px;
+	background-color: white;
+	font-family: arial;
+	padding-top: 26px;
+	padding-bottom: 15px;
+	padding-left: 15%;
+	padding-right: 15%;
+	line-height: 35px;
+	border: 6px double #011936;
+	border-radius: 25px;
+}
